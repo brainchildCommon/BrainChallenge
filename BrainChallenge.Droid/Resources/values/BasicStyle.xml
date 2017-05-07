@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <style name="BasicTheme" parent="android:Theme.Light.NoTitleBar">
+        <!-- Override the app bar color -->
+        <item name="android:colorPrimary">@color/my_blue</item>
+        <item name="android:colorAccent">@color/my_purple</item>
+        <!-- フォント関連 -->
+		<item name="android:fontFamily">sans-serif</item>
+
+    </style>
+	<style name="ImageButtonBasic" >
+	<!-- イメージボタン関連 -->
+		<item name="android:scaleType">fitCenter</item>
+		<item name="android:adjustViewBounds">true</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+</resources>

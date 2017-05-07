@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<!-- 選択ゲーム画面関連 -->
+	<!-- 選択ゲームタイトル -->
+	<style name="SelectGameTitle">
+		<item name="android:gravity">center</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:textColor">#fffafafa</item>
+		<item name="android:background">@color/my_blue</item>
+		<item name="android:layout_marginBottom">17.5dp</item>
+		<item name="android:textSize">60px</item>
+	</style>
+	<!-- 選択ゲームイメージライナー -->
+	<style name="SelectGameImageLinear">
+		<item name="android:orientation">vertical</item>
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:background">@drawable/border</item>
+		<item name="android:layout_marginBottom">8.0dp</item>
+	</style>
+	<!-- 選択ゲームイメージ -->
+	<style name="SelectGameImage">
+		<item name="android:gravity">center</item>
+		<item name="android:layout_height">188.5dp</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:background">@drawable/border</item>
+	</style>
+
+	<!-- 選択ゲームスコア説明 -->
+	<style name="SelectGameScoreExplain">
+		<item name="android:gravity">center</item>
+		<item name="android:text">あなたのハイスコア</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+		<item name="android:layout_marginTop">10.0dp</item>
+	</style>
+
+	<!-- 選択ゲームスコア -->
+	<style name="SelectGameScore">
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+	</style>
+
+	<!-- 選択ゲーム画面ボタンライナー-->
+	<style name="SelectGameButtonLinear">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_marginTop">33.5dp</item>
+	</style>
+
+	<!-- 選択ゲーム画面ヘルプボタン-->
+	<style name="SelectGameHelpButton">
+		<item name="android:text">？</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_width">50dp</item>
+		<item name="android:background">@drawable/radius_gray</item>
+		<item name="android:layout_marginRight">10.0dp</item>
+	</style>
+	<!-- 選択ゲーム画面スタートボタン-->
+	<style name="SelectGameStartButton">
+		<item name="android:text">スタート</item>
+		<item name="android:layout_height">35.5dp</item>
+		<item name="android:layout_width">154.0dp</item>
+		<item name="android:background">@drawable/radius_blue</item>
+		<item name="android:layout_marginRight">10.0dp</item>
+	</style>
+
+	<!-- 選択ゲーム画面ボタンライナー-->
+	<style name="SelectGameOptionButtonLinear">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+	</style>
+	<!-- 選択ゲーム画面戻るボタン-->
+	<style name="SelectGameReturnButton">
+		<item name="android:text">戻る</item>
+		<item name="android:layout_height">35.5dp</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:background">@drawable/radius_gray</item>
+		<item name="android:layout_marginLeft">17.5dp</item>
+		<item name="android:width">50dp</item>
+	</style>
+
+	<style name="GameResultScoreLinaer">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:layout_marginBottom">0.5dp</item>
+		<item name="android:background">@color/my_min_blue</item>
+		<item name="android:gravity">center</item>		
+	</style>
+	<style name="GameResultScore">
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:textSize">20dp</item>		
+	</style>
+	<!-- 選択ゲーム画面スタートボタン-->
+	<style name="SelectGameAgainButton">
+		<item name="android:text">もう一度</item>
+		<item name="android:layout_height">35.5dp</item>
+		<item name="android:layout_width">154.0dp</item>
+		<item name="android:background">@drawable/radius_blue</item>
+		<item name="android:layout_marginRight">10.0dp</item>
+	</style>
+</resources>

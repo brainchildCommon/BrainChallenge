@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<!-- 選択ゲーム画面関連 -->
+	<!-- 選択ゲームタイトル -->
+	<style name="SelectGameTitle">
+		<item name="android:gravity">center</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:textColor">#fffafafa</item>
+		<item name="android:background">@color/my_blue</item>
+		<item name="android:layout_marginBottom">17.5dp</item>
+		<item name="android:textSize">60px</item>
+	</style>
+	<!-- ゲームヘルプライナー -->
+	<style name="HelpGameLinear">
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:background">@drawable/border</item>
+		<item name="android:layout_marginTop">10.0dp</item>
+		<item name="android:layout_marginBottom">10.0dp</item>
+	</style>
+
+	<!-- ゲームヘルプ -->
+	<style name="HelpGame">
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	</style>
+
+	<!-- 選択ゲーム画面ボタンライナー-->
+	<style name="SelectGameOptionButtonLinear">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+	</style>
+	<!-- 選択ゲーム画面戻るボタン-->
+	<style name="SelectGameReturnButton">
+		<item name="android:text">戻る</item>
+		<item name="android:layout_height">35.5dp</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:background">@drawable/radius_gray</item>
+		<item name="android:layout_marginLeft">17.5dp</item>
+		<item name="android:width">50dp</item>
+	</style>
+</resources>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<style name="DetectiveGameScoreLinaer">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:layout_marginBottom">0.5dp</item>
+		<item name="android:background">@color/my_min_blue</item>
+		<item name="android:gravity">right</item>		
+	</style>
+	<style name="DetectiveGameScore">
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:textSize">20dp</item>		
+	</style>
+	<style name="DetectiveGameStateLinaer">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:layout_marginBottom">0.5dp</item>
+		<item name="android:background">@color/my_min_blue</item>
+		<item name="android:gravity">center</item>		
+	</style>
+	<style name="DetectiveGameState">
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:textSize">20dp</item>		
+	</style>
+	<!-- 探偵ゲームインナータイトルライナー -->
+	<style name="DetectiveGameInTitleLinear">
+		<item name="android:orientation">vertical</item>
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_marginBottom">10.0dp</item>
+	</style>
+	<!-- 探偵ゲームインナータイトル-->
+	<style name="DetectiveGameInTitleImage">
+		<item name="android:gravity">center</item>
+		<item name="android:layout_height">40.0dp</item>
+		<item name="android:layout_width">match_parent</item>
+	</style>
+	<!-- 探偵ゲームインナータイトル-->
+	<style name="DetectiveGameTargetImage">
+		<item name="android:gravity">center</item>
+		<item name="android:layout_height">40.0dp</item>
+		<item name="android:layout_width">match_parent</item>
+	</style>
+	<!-- メモリゲームタイル -->
+	<style name="DetectiveGameTile">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:rowCount">5</item>
+		<item name="android:columnCount">4</item>
+		<item name="android:layout_gravity">center</item>
+	</style>
+	<!-- 探偵ゲームタイルボタン -->
+	<style name="DetectiveTileButton" parent="@style/ImageButtonBasic">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_width">70.0dp</item>
+		<item name="android:layout_height">70.0dp</item>
+	</style>
+</resources>

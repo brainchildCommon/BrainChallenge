@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<!-- メニュー画面関連 -->
+	<!-- メニュータイトルライナー -->
+	<style name="MenuTitleLinaer">
+		<item name="android:orientation">vertical</item>
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+	</style>
+	<!-- メニュータイトル -->
+	<style name="MenuTitle">
+		<item name="android:gravity">center</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+		<item name="android:layout_height">50.0dp</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:textColor">#fffafafa</item>
+		<item name="android:background">@color/my_blue</item>
+		<item name="android:textSize">60px</item>
+	</style>
+	<!-- ゲーム種別リストスクロール -->
+	<style name="GameTypeListScroll">
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_width">match_parent</item>
+	</style>
+	<!-- ゲーム種別テーブル -->
+	<style name="GameTypeListTable">
+		<item name="android:stretchColumns">1</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+	</style>
+	<!-- ゲーム種別タイトルライナー -->
+	<style name="GameListTitleLinear">
+		<item name="android:orientation">vertical</item>
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+	</style>
+	<!-- ゲーム種別タイトル -->
+	<style name="GameTypeListTitle">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<!-- px = 2 * dp -->
+		<item name="android:paddingLeft">15dp</item>
+		<item name="android:layout_marginBottom">0.0dp</item>
+		<item name="android:layout_marginTop">27.5dp</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	</style>
+	<!--　ゲーム一覧スクロール -->
+	<style name="GameListScroll">
+		<item name="android:stretchColumns">1</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+	</style>
+	<!-- ゲーム一覧ライナー -->
+	<style name="GameListLinaer">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+	</style>
+	<!-- ゲームライナー -->
+	<style name="GameLinaer">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_marginLeft">20.5dp</item>
+		<item name="android:layout_marginBottom">10.0dp</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	<!-- ゲーム選択ボタン -->
+	<style name="GameButton" parent="@style/ImageButtonBasic">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_width">100.0dp</item>
+		<item name="android:layout_height">100.0dp</item>
+		<item name="android:layout_marginTop">17.0dp</item>
+	</style>
+	<!-- ゲームタイトル -->
+	<style name="GameTitle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">100.0dp</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<style name="NoOpenGameButton" parent="@style/GameButton">
+		<item name="android:src">@drawable/noopen</item>
+	</style>
+	<style name="NoOpenGameTitle" parent="@style/GameTitle">
+		<item name="android:text">準備中</item>
+	</style>
+</resources>
