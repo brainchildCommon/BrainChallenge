@@ -29,10 +29,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Client\ClientModel\GameDetailModel.cs" />
+    <Compile Include="Client\ClientModel\GameHelpModel.cs" />
     <Compile Include="Client\ClientModel\GameModel.cs" />
+    <Compile Include="Client\ClientModel\GameResultDetailModel.cs" />
+    <Compile Include="Client\ClientModel\HelpModel.cs" />
     <Compile Include="Client\ClientModel\ServiceInitializeModel.cs" />
     <Compile Include="Client\ClientService\Implement\ServiceIinitializer.cs" />
+    <Compile Include="Client\ClientService\InterFace\IGameResultService.cs" />
     <Compile Include="Client\ClientService\InterFace\IGameStartService.cs" />
+    <Compile Include="Client\ClientService\InterFace\IHelpService.cs" />
     <Compile Include="Client\ClientService\InterFace\IMenuService.cs" />
     <Compile Include="Client\System\ClientException.cs" />
     <Compile Include="Data\Connection\ConnectionProvider.cs" />
@@ -40,6 +45,7 @@
     <Compile Include="Data\DataService\Implement\GameTypeMasterService.cs" />
     <Compile Include="Data\DataService\Implement\HelpMasterService.cs" />
     <Compile Include="Data\DataService\Implement\SampleDataService.cs" />
+    <Compile Include="Data\Entity\Master\DetectiveGameMasterEntity.cs" />
     <Compile Include="Data\Entity\Master\HelpMasterEntity.cs" />
     <Compile Include="Data\Entity\General\ScoreEntity.cs" />
     <Compile Include="Data\Entity\Master\GameMasterEntity.cs" />
