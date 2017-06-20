@@ -18,7 +18,7 @@ namespace BrainChallenge.Common.Data.Entity.Master
         /// ポイント
         /// </summary>
         [Column("_point")]
-        public string Point { get; set; }
+        public int Point { get; set; }
         /// <summary>
         /// タイル総数
         /// </summary>
@@ -33,12 +33,12 @@ namespace BrainChallenge.Common.Data.Entity.Master
         /// フェイクタイルフラグ
         /// </summary>
         [Column("_fakeFlg")]
-        public string FakeFlg { get; set; }
+        public bool? FakeFlg { get; set; }
         /// <summary>
         /// フェイクタイル数
         /// </summary>
         [Column("_fakeTile")]
-        public string FakeTile { get; set; }
+        public int FakeTile { get; set; }
 
         public override string ToString()
         {

@@ -12,6 +12,7 @@ namespace BrainChallenge.Common.Tests
         public static List<GameTypeMasterEntity> GameTypeMasterTestData = new List<GameTypeMasterEntity>();
         public static List<HelpMasterEntity> HelpMasterTestData = new List<HelpMasterEntity>();
         public static List<ScoreEntity> ScoreTestData = new List<ScoreEntity>();
+        public static List<DetectiveGameMasterEntity> DetectiveGameMasterTestData = new List<DetectiveGameMasterEntity>();
 
         //テスト
         public static List<SampleEntity> SampleTestData = new List<SampleEntity>();
@@ -66,6 +67,17 @@ namespace BrainChallenge.Common.Tests
             ScoreTestData.Add(new ScoreEntity { GameId = 2, Score = 500, RegistDate = DateTime.Now.AddDays(4) });
             ScoreTestData.Add(new ScoreEntity { GameId = 2, Score = 600, RegistDate = DateTime.Now.AddDays(5) });
 
+            DetectiveGameMasterTestData.Add(new DetectiveGameMasterEntity { Level = 1, Point = 100, Tile = 4, CollectTile = 2, FakeFlg = false, FakeTile = 0 });
+            DetectiveGameMasterTestData.Add(new DetectiveGameMasterEntity { Level = 2, Point = 200, Tile = 5, CollectTile = 3, FakeFlg = false, FakeTile = 0 });
+            DetectiveGameMasterTestData.Add(new DetectiveGameMasterEntity { Level = 3, Point = 300, Tile = 6, CollectTile = 3, FakeFlg = false, FakeTile = 0 });
+            DetectiveGameMasterTestData.Add(new DetectiveGameMasterEntity { Level = 4, Point = 400, Tile = 7, CollectTile = 3, FakeFlg = true, FakeTile = 1 });
+            DetectiveGameMasterTestData.Add(new DetectiveGameMasterEntity { Level = 5, Point = 500, Tile = 8, CollectTile = 3, FakeFlg = true, FakeTile = 1 });
+            DetectiveGameMasterTestData.Add(new DetectiveGameMasterEntity { Level = 6, Point = 600, Tile = 9, CollectTile = 4, FakeFlg = true, FakeTile = 2 });
+            DetectiveGameMasterTestData.Add(new DetectiveGameMasterEntity { Level = 7, Point = 700, Tile = 10, CollectTile = 4, FakeFlg = true, FakeTile = 2 });
+            DetectiveGameMasterTestData.Add(new DetectiveGameMasterEntity { Level = 8, Point = 800, Tile = 11, CollectTile = 5, FakeFlg = true, FakeTile = 3 });
+            DetectiveGameMasterTestData.Add(new DetectiveGameMasterEntity { Level = 9, Point = 900, Tile = 13, CollectTile = 7, FakeFlg = false, FakeTile = 0 });
+            DetectiveGameMasterTestData.Add(new DetectiveGameMasterEntity { Level = 10, Point = 1000, Tile = 14, CollectTile = 8, FakeFlg = true, FakeTile = 3 });
+
             SampleTestData.Add(new SampleEntity { Id = 0, Name = "テスト0" });
             SampleTestData.Add(new SampleEntity { Id = 1, Name = "テスト1" });
             SampleTestData.Add(new SampleEntity { Id = 2, Name = "テスト2" });
@@ -82,6 +94,7 @@ namespace BrainChallenge.Common.Tests
                 GameMasterTestData.ForEach(data => con.Insert(data));
                 HelpMasterTestData.ForEach(data => con.Insert(data));
                 ScoreTestData.ForEach(data => con.Insert(data));
+                DetectiveGameMasterTestData.ForEach(data => con.Insert(data));
 
                 SampleTestData.ForEach(data => con.Insert(data));
 
