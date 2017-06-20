@@ -41,6 +41,7 @@
     <Compile Include="Client\ClientService\InterFace\IMenuService.cs" />
     <Compile Include="Client\System\ClientException.cs" />
     <Compile Include="Data\Connection\ConnectionProvider.cs" />
+    <Compile Include="Data\DataService\Implement\DetectiveGameMasterService.cs" />
     <Compile Include="Data\DataService\Implement\GameMasterService.cs" />
     <Compile Include="Data\DataService\Implement\GameTypeMasterService.cs" />
     <Compile Include="Data\DataService\Implement\HelpMasterService.cs" />
