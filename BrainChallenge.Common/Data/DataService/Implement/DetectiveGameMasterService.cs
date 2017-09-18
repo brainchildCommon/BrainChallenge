@@ -38,7 +38,7 @@ namespace BrainChallenge.Common.Data.DataService.Implement
                 if (t.FakeFlg != null)
                     result = result.Where(data => data.FakeFlg == t.FakeFlg);
                 if (t.FakeTile != -1)
-                    result = result.Where(data => data.FakeTile.Equals(t.FakeTile));
+                    result = result.Where(data => data.FakeTile == t.FakeTile);
 
                 return result.Count() != 0 ? result.ToList() : null;
             }
