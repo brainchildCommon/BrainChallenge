@@ -29,15 +29,15 @@ namespace BrainChallenge.Common.Data.DataService.Implement
 
                 if (t.Level != -1)
                     result = result.Where(data => data.Level == t.Level);
-                if (t.Point != null)
-                    result = result.Where(data => data.Point.Equals(t.Point));
+                if (t.Point != -1)
+                    result = result.Where(data => data.Point == t.Point);
                 if (t.Tile != -1)
                     result = result.Where(data => data.Tile == t.Tile);
                 if (t.CollectTile != -1)
                     result = result.Where(data => data.CollectTile == t.CollectTile);
                 if (t.FakeFlg != null)
-                    result = result.Where(data => data.FakeFlg.Equals(t.FakeFlg));
-                if (t.FakeTile != null)
+                    result = result.Where(data => data.FakeFlg == t.FakeFlg);
+                if (t.FakeTile != -1)
                     result = result.Where(data => data.FakeTile.Equals(t.FakeTile));
 
                 return result.Count() != 0 ? result.ToList() : null;

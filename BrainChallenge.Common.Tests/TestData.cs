@@ -116,6 +116,7 @@ namespace BrainChallenge.Common.Tests
                     con.DropTable<GameMasterEntity>();
                     con.DropTable<HelpMasterEntity>();
                     con.DropTable<ScoreEntity>();
+                    con.DropTable<DetectiveGameMasterEntity>();
 
                     con.DropTable<SampleEntity>();
                 }
@@ -130,6 +131,7 @@ namespace BrainChallenge.Common.Tests
                 con.CreateTable<GameMasterEntity>();
                 con.CreateTable<HelpMasterEntity>();
                 con.CreateTable<ScoreEntity>();
+                con.CreateTable<DetectiveGameMasterEntity>();
 
                 con.CreateTable<SampleEntity>();
 
